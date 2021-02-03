@@ -1,0 +1,4 @@
+﻿  SampleModule.cpp
+imagehlp.lib(imagehlp.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in opengl32.lib(OPENGL32.dll); second definition ignored
+fmod64.lib(fmod.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in opengl32.lib(OPENGL32.dll); second definition ignored
+  sampleModule.vcxproj -> C:\ComputerGraphics2ndYear\modules\sampleModule\..\..\bin\Debug-windows-x86_64\sampleModule\sampleModule.lib

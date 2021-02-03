@@ -1,0 +1,4 @@
+﻿  ITexture.cpp
+C:\ComputerGraphics2ndYear\modules\GraphicsModule\src\ITexture.cpp(9,11): error C2440: 'initializing': cannot convert from 'int' to 'GLuint &'
+C:\ComputerGraphics2ndYear\modules\GraphicsModule\src\ITexture.cpp(10,1): error C2439: 'ITexture::_handle': member could not be initialized
+C:\ComputerGraphics2ndYear\modules\GraphicsModule\include\ITexture.h(57): message : see declaration of 'ITexture::_handle'

@@ -1,0 +1,21 @@
+﻿  App.cpp
+C:\ComputerGraphics2ndYear\dependencies\imgui\imgui_impl_opengl3.cpp(155,1): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : see declaration of 'strcpy'
+C:\ComputerGraphics2ndYear\dependencies\imgui\imgui_impl_opengl3.cpp(156,1): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(90): message : see declaration of 'strcat'
+C:\ComputerGraphics2ndYear\dependencies\imgui\imgui_impl_opengl3.cpp(458,1): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  CCamera.cpp
+  CMeshRenderer.cpp
+  Entity.cpp
+  GLTFLoader.cpp
+  Input.cpp
+  Material.cpp
+  Mesh.cpp
+  Shader.cpp
+  Texture.cpp
+  Transform.cpp
+  Generating Code...
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2263): message : see declaration of 'sscanf'
+imagehlp.lib(imagehlp.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in opengl32.lib(OPENGL32.dll); second definition ignored
+fmod64.lib(fmod.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in opengl32.lib(OPENGL32.dll); second definition ignored
+  NOU.vcxproj -> C:\ComputerGraphics2ndYear\modules\NOU\..\..\bin\Debug-windows-x86_64\NOU\NOU.lib

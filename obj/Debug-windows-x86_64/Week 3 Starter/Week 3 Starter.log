@@ -1,0 +1,45 @@
+﻿  Framebuffer.cpp
+C:\ComputerGraphics2ndYear\samples\INFR-2350U\Week 3 Starter\src\Graphics\Framebuffer.cpp(302,1): error C2084: function 'void Framebuffer::DrawFullScreenQuad(void)' already has a body
+  BackendHandler.cpp
+C:\ComputerGraphics2ndYear\samples\INFR-2350U\Week 3 Starter\src\Graphics\Framebuffer.cpp(294): message : see previous definition of 'DrawFullScreenQuad'
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(4492,54): error C2338: The managed type must be at least move constructible and assignable
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7601): message : see reference to class template instantiation 'entt::storage<Entity,Type,void>' being compiled
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7601): message :         with
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7601): message :         [
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7601): message :             Entity=entt::entity,
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7601): message :             Type=Framebuffer
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7601): message :         ]
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(8756): message : see reference to class template instantiation 'entt::basic_registry<entt::entity>::pool_handler<Framebuffer>' being compiled
+C:\ComputerGraphics2ndYear\samples\INFR-2350U\Week 3 Starter\src\Utilities\BackendHandler.cpp(51): message : see reference to function template instantiation 'entt::basic_view<Entity,entt::exclude_t<>,Framebuffer> entt::basic_registry<Entity>::view<Framebuffer,>(entt::exclude_t<>)' being compiled
+C:\ComputerGraphics2ndYear\samples\INFR-2350U\Week 3 Starter\src\Utilities\BackendHandler.cpp(51): message :         with
+C:\ComputerGraphics2ndYear\samples\INFR-2350U\Week 3 Starter\src\Utilities\BackendHandler.cpp(51): message :         [
+C:\ComputerGraphics2ndYear\samples\INFR-2350U\Week 3 Starter\src\Utilities\BackendHandler.cpp(51): message :             Entity=entt::entity
+C:\ComputerGraphics2ndYear\samples\INFR-2350U\Week 3 Starter\src\Utilities\BackendHandler.cpp(51): message :         ]
+  main.cpp
+C:\ComputerGraphics2ndYear\samples\INFR-2350U\Week 3 Starter\src\Utilities\BackendHandler.cpp(51): message : see reference to function template instantiation 'entt::basic_view<Entity,entt::exclude_t<>,Framebuffer> entt::basic_registry<Entity>::view<Framebuffer,>(entt::exclude_t<>)' being compiled
+C:\ComputerGraphics2ndYear\samples\INFR-2350U\Week 3 Starter\src\Utilities\BackendHandler.cpp(51): message :         with
+C:\ComputerGraphics2ndYear\samples\INFR-2350U\Week 3 Starter\src\Utilities\BackendHandler.cpp(51): message :         [
+C:\ComputerGraphics2ndYear\samples\INFR-2350U\Week 3 Starter\src\Utilities\BackendHandler.cpp(51): message :             Entity=entt::entity
+C:\ComputerGraphics2ndYear\samples\INFR-2350U\Week 3 Starter\src\Utilities\BackendHandler.cpp(51): message :         ]
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(4492,54): error C2338: The managed type must be at least move constructible and assignable
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7601): message : see reference to class template instantiation 'entt::storage<Entity,Component,void>' being compiled
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7601): message :         with
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7601): message :         [
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7601): message :             Entity=entt::entity,
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7601): message :             Component=Framebuffer
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7601): message :         ]
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(8192): message : see reference to class template instantiation 'entt::basic_registry<entt::entity>::pool_handler<Component>' being compiled
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(8192): message :         with
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(8192): message :         [
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(8192): message :             Component=Framebuffer
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(8192): message :         ]
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(9585): message : see reference to function template instantiation 'decltype(auto) entt::basic_registry<entt::entity>::emplace<Component,>(const entt::entity)' being compiled
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(9585): message :         with
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(9585): message :         [
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(9585): message :             Component=Framebuffer
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(9585): message :         ]
+C:\ComputerGraphics2ndYear\samples\INFR-2350U\Week 3 Starter\src\main.cpp(286): message : see reference to function template instantiation 'decltype(auto) entt::basic_handle<entt::entity>::emplace<Framebuffer,>(void) const' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\filesystem(2091): message : see reference to class template instantiation 'std::chrono::time_point<std::filesystem::_File_time_clock,std::filesystem::_File_time_clock::duration>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\xstring(1764): message : see reference to class template instantiation 'std::basic_string_view<wchar_t,std::char_traits<wchar_t>>' being compiled
+  Generating Code...
+C:\ComputerGraphics2ndYear\samples\INFR-2350U\Week 3 Starter\src\main.cpp(344,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data

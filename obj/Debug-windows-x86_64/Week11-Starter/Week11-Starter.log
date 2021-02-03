@@ -1,0 +1,89 @@
+﻿  main.cpp
+C:\ComputerGraphics2ndYear\samples\INFR-1350U\Week11-Starter\src\main.cpp(642,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(6191,1): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+C:\ComputerGraphics2ndYear\samples\INFR-1350U\Week11-Starter\src\main.cpp(727): message : see reference to function template instantiation 'void entt::basic_group<entt::entity,entt::exclude_t<>,entt::get_t<Transform>,RendererComponent>::sort<RendererComponent,main::<lambda_311d732605f36f4576f3309f0e7696ae>,entt::std_sort,>(Compare,Sort)' being compiled
+C:\ComputerGraphics2ndYear\samples\INFR-1350U\Week11-Starter\src\main.cpp(727): message :         with
+C:\ComputerGraphics2ndYear\samples\INFR-1350U\Week11-Starter\src\main.cpp(727): message :         [
+C:\ComputerGraphics2ndYear\samples\INFR-1350U\Week11-Starter\src\main.cpp(727): message :             Compare=main::<lambda_311d732605f36f4576f3309f0e7696ae>,
+C:\ComputerGraphics2ndYear\samples\INFR-1350U\Week11-Starter\src\main.cpp(727): message :             Sort=entt::std_sort
+C:\ComputerGraphics2ndYear\samples\INFR-1350U\Week11-Starter\src\main.cpp(727): message :         ]
+C:\ComputerGraphics2ndYear\samples\INFR-1350U\Week11-Starter\src\main.cpp(713): message : see reference to function template instantiation 'void entt::basic_group<entt::entity,entt::exclude_t<>,entt::get_t<Transform>,RendererComponent>::sort<RendererComponent,main::<lambda_311d732605f36f4576f3309f0e7696ae>,entt::std_sort,>(Compare,Sort)' being compiled
+C:\ComputerGraphics2ndYear\samples\INFR-1350U\Week11-Starter\src\main.cpp(713): message :         with
+C:\ComputerGraphics2ndYear\samples\INFR-1350U\Week11-Starter\src\main.cpp(713): message :         [
+C:\ComputerGraphics2ndYear\samples\INFR-1350U\Week11-Starter\src\main.cpp(713): message :             Compare=main::<lambda_311d732605f36f4576f3309f0e7696ae>,
+C:\ComputerGraphics2ndYear\samples\INFR-1350U\Week11-Starter\src\main.cpp(713): message :             Sort=entt::std_sort
+C:\ComputerGraphics2ndYear\samples\INFR-1350U\Week11-Starter\src\main.cpp(713): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\filesystem(2091): message : see reference to class template instantiation 'std::chrono::time_point<std::filesystem::_File_time_clock,std::filesystem::_File_time_clock::duration>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\xstring(1764): message : see reference to class template instantiation 'std::basic_string_view<wchar_t,std::char_traits<wchar_t>>' being compiled
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(4677,1): warning C4267: 'initializing': conversion from 'size_t' to 'entt::entt_traits<uint32_t,void>::difference_type', possible loss of data
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(4676): message : while compiling class template member function 'entt::storage<Entity,Type,void>::storage_iterator<false> entt::storage<Entity,Type,void>::begin(void) noexcept'
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(4676): message :         with
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(4676): message :         [
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(4676): message :             Entity=entt::entity,
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(4676): message :             Type=BehaviourBinding
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(4676): message :         ]
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7545): message : see reference to function template instantiation 'entt::storage<Entity,Type,void>::storage_iterator<false> entt::storage<Entity,Type,void>::begin(void) noexcept' being compiled
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7545): message :         with
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7545): message :         [
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7545): message :             Entity=entt::entity,
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7545): message :             Type=BehaviourBinding
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7545): message :         ]
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7601): message : see reference to class template instantiation 'entt::storage<Entity,Type,void>' being compiled
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7601): message :         with
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7601): message :         [
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7601): message :             Entity=entt::entity,
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7601): message :             Type=BehaviourBinding
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7601): message :         ]
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(8478): message : see reference to class template instantiation 'entt::basic_registry<entt::entity>::pool_handler<BehaviourBinding>' being compiled
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(9687): message : see reference to function template instantiation 'BehaviourBinding &entt::basic_registry<entt::entity>::get<BehaviourBinding>(const entt::entity)' being compiled
+C:\ComputerGraphics2ndYear\samples\INFR-1350U\Week11-Starter\src\Gameplay\IBehaviour.h(141): message : see reference to function template instantiation 'BehaviourBinding &entt::basic_handle<entt::entity>::get<BehaviourBinding>(void) const' being compiled
+C:\ComputerGraphics2ndYear\samples\INFR-1350U\Week11-Starter\src\main.cpp(366): message : see reference to function template instantiation 'std::shared_ptr<SimpleMoveBehaviour> BehaviourBinding::Get<SimpleMoveBehaviour,void>(entt::handle)' being compiled
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(4677,1): warning C4267: 'initializing': conversion from 'size_t' to 'const entt::entt_traits<uint32_t,void>::difference_type', possible loss of data
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(4132,1): warning C4267: 'initializing': conversion from 'size_t' to 'entt::entt_traits<uint32_t,void>::difference_type', possible loss of data
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(4131): message : while compiling class template member function 'entt::sparse_set<Entity>::sparse_set_iterator entt::sparse_set<Entity>::begin(void) noexcept const'
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(4131): message :         with
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(4131): message :         [
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(4131): message :             Entity=entt::entity
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(4131): message :         ]
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7379): message : see reference to function template instantiation 'entt::sparse_set<Entity>::sparse_set_iterator entt::sparse_set<Entity>::begin(void) noexcept const' being compiled
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7379): message :         with
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7379): message :         [
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7379): message :             Entity=entt::entity
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7379): message :         ]
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7314): message : see reference to class template instantiation 'entt::sparse_set<Entity>' being compiled
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7314): message :         with
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7314): message :         [
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7314): message :             Entity=entt::entity
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7314): message :         ]
+C:\ComputerGraphics2ndYear\samples\INFR-1350U\Week11-Starter\src\main.cpp(83): message : see reference to class template instantiation 'entt::basic_view<Entity,entt::exclude_t<>,Camera>' being compiled
+C:\ComputerGraphics2ndYear\samples\INFR-1350U\Week11-Starter\src\main.cpp(83): message :         with
+C:\ComputerGraphics2ndYear\samples\INFR-1350U\Week11-Starter\src\main.cpp(83): message :         [
+C:\ComputerGraphics2ndYear\samples\INFR-1350U\Week11-Starter\src\main.cpp(83): message :             Entity=entt::entity
+C:\ComputerGraphics2ndYear\samples\INFR-1350U\Week11-Starter\src\main.cpp(83): message :         ]
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(4132,1): warning C4267: 'initializing': conversion from 'size_t' to 'const entt::entt_traits<uint32_t,void>::difference_type', possible loss of data
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(5840,1): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(6130): message : see reference to function template instantiation 'void entt::basic_group<entt::entity,entt::exclude_t<>,entt::get_t<Transform>,RendererComponent>::traverse<main::<lambda_d57aaaa1df4d72f459843a25006ce90e>,RendererComponent,Transform>(Func,entt::type_list<RendererComponent>,entt::type_list<Transform>) const' being compiled
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(6130): message :         with
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(6130): message :         [
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(6130): message :             Func=main::<lambda_d57aaaa1df4d72f459843a25006ce90e>
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(6130): message :         ]
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(6133): message : see reference to function template instantiation 'void entt::basic_group<entt::entity,entt::exclude_t<>,entt::get_t<Transform>,RendererComponent>::traverse<main::<lambda_d57aaaa1df4d72f459843a25006ce90e>,RendererComponent,Transform>(Func,entt::type_list<RendererComponent>,entt::type_list<Transform>) const' being compiled
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(6133): message :         with
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(6133): message :         [
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(6133): message :             Func=main::<lambda_d57aaaa1df4d72f459843a25006ce90e>
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(6133): message :         ]
+C:\ComputerGraphics2ndYear\samples\INFR-1350U\Week11-Starter\src\main.cpp(748): message : see reference to function template instantiation 'void entt::basic_group<entt::entity,entt::exclude_t<>,entt::get_t<Transform>,RendererComponent>::each<main::<lambda_d57aaaa1df4d72f459843a25006ce90e>>(Func) const' being compiled
+C:\ComputerGraphics2ndYear\samples\INFR-1350U\Week11-Starter\src\main.cpp(748): message :         with
+C:\ComputerGraphics2ndYear\samples\INFR-1350U\Week11-Starter\src\main.cpp(748): message :         [
+C:\ComputerGraphics2ndYear\samples\INFR-1350U\Week11-Starter\src\main.cpp(748): message :             Func=main::<lambda_d57aaaa1df4d72f459843a25006ce90e>
+C:\ComputerGraphics2ndYear\samples\INFR-1350U\Week11-Starter\src\main.cpp(748): message :         ]
+C:\ComputerGraphics2ndYear\samples\INFR-1350U\Week11-Starter\src\main.cpp(734): message : see reference to function template instantiation 'void entt::basic_group<entt::entity,entt::exclude_t<>,entt::get_t<Transform>,RendererComponent>::each<main::<lambda_d57aaaa1df4d72f459843a25006ce90e>>(Func) const' being compiled
+C:\ComputerGraphics2ndYear\samples\INFR-1350U\Week11-Starter\src\main.cpp(734): message :         with
+C:\ComputerGraphics2ndYear\samples\INFR-1350U\Week11-Starter\src\main.cpp(734): message :         [
+C:\ComputerGraphics2ndYear\samples\INFR-1350U\Week11-Starter\src\main.cpp(734): message :             Func=main::<lambda_d57aaaa1df4d72f459843a25006ce90e>
+C:\ComputerGraphics2ndYear\samples\INFR-1350U\Week11-Starter\src\main.cpp(734): message :         ]
+  Week11-Starter.vcxproj -> C:\ComputerGraphics2ndYear\samples\INFR-1350U\Week11-Starter\..\..\..\bin\Debug-windows-x86_64\Week11-Starter\Week11-Starter.exe
+  0 File(s) copied
+  2 File(s) copied
+  49 File(s) copied
+  44 File(s) copied

@@ -1,0 +1,17 @@
+﻿  Logging.cpp
+  Sys.cpp
+  Camera.cpp
+  FontRenderer.cpp
+  GLFWInput.cpp
+  GraphicsUtils.cpp
+C:\ComputerGraphics2ndYear\modules\toolkit\src\TTK\GraphicsUtils.cpp(161,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\ComputerGraphics2ndYear\modules\toolkit\src\TTK\GraphicsUtils.cpp(161,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\ComputerGraphics2ndYear\modules\toolkit\src\TTK\GraphicsUtils.cpp(202,1): warning C4996: 'TTK::Graphics::DrawVector': lineWidth is no longer a supported parameter, see overloads without lineWidth
+  Input.cpp
+  MeshHelper.cpp
+  SpriteSheetQuad.cpp
+  TTKContext.cpp
+  Texture2D.cpp
+  Generating Code...
+C:\ComputerGraphics2ndYear\modules\toolkit\src\TTK\GraphicsUtils.cpp(193): message : see declaration of 'TTK::Graphics::DrawVector'
+  toolkit.vcxproj -> C:\ComputerGraphics2ndYear\modules\toolkit\bin\Debug-windows-x86_64\toolkit\toolkit.lib

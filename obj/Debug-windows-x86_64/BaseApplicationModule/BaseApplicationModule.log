@@ -1,0 +1,39 @@
+﻿  CameraControlBehaviour.cpp
+  FollowPathBehaviour.cpp
+  InputHelpers.cpp
+  LoggingBase.cpp
+  Scene.cpp
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(4132,1): warning C4267: 'initializing': conversion from 'size_t' to 'entt::entt_traits<uint32_t,void>::difference_type', possible loss of data
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(4131): message : while compiling class template member function 'entt::sparse_set<Entity>::sparse_set_iterator entt::sparse_set<Entity>::begin(void) noexcept const'
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(4131): message :         with
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(4131): message :         [
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(4131): message :             Entity=entt::entity
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(4131): message :         ]
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7379): message : see reference to function template instantiation 'entt::sparse_set<Entity>::sparse_set_iterator entt::sparse_set<Entity>::begin(void) noexcept const' being compiled
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7379): message :         with
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7379): message :         [
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7379): message :             Entity=entt::entity
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7379): message :         ]
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(4491): message : see reference to class template instantiation 'entt::sparse_set<Entity>' being compiled
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(4491): message :         with
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(4491): message :         [
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(4491): message :             Entity=entt::entity
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(4491): message :         ]
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7601): message : see reference to class template instantiation 'entt::storage<Entity,Component,void>' being compiled
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7601): message :         with
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7601): message :         [
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7601): message :             Entity=entt::entity,
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7601): message :             Component=Transform
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(7601): message :         ]
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(8192): message : see reference to class template instantiation 'entt::basic_registry<entt::entity>::pool_handler<Component>' being compiled
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(8192): message :         with
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(8192): message :         [
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(8192): message :             Component=Transform
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(8192): message :         ]
+C:\ComputerGraphics2ndYear\modules\BaseApplicationModule\src\Scene.cpp(21): message : see reference to function template instantiation 'Transform &entt::basic_registry<entt::entity>::emplace<Transform,entt::handle&>(const entt::entity,entt::handle &)' being compiled
+  SimpleMoveBehaviour.cpp
+  Generating Code...
+C:\ComputerGraphics2ndYear\dependencies\entt\entt.hpp(4132,1): warning C4267: 'initializing': conversion from 'size_t' to 'const entt::entt_traits<uint32_t,void>::difference_type', possible loss of data
+imagehlp.lib(imagehlp.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in opengl32.lib(OPENGL32.dll); second definition ignored
+fmod64.lib(fmod.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in opengl32.lib(OPENGL32.dll); second definition ignored
+  BaseApplicationModule.vcxproj -> C:\ComputerGraphics2ndYear\modules\BaseApplicationModule\..\..\bin\Debug-windows-x86_64\BaseApplicationModule\BaseApplicationModule.lib
